@@ -1,6 +1,6 @@
 import re
-from emotion_classifier import EmotionClassifier
-from config import MODEL_PATH
+from src.emotion_classifier import EmotionClassifier
+from src.config import MODEL_PATH
 
 def clean_text(raw_text: str) -> str:
     raw_text = raw_text.lower()

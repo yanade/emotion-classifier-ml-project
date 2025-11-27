@@ -1,7 +1,7 @@
 import json
 import logging
 from datasets import load_dataset
-from config import HF_DATASET, LABEL_MAPPING_PATH
+from src.config import HF_DATASET, LABEL_MAPPING_PATH
 
 
 def fetch_label_mapping():
