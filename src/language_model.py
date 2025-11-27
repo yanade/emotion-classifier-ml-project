@@ -44,8 +44,8 @@ class Chatbot:
         generated_output = self.model.generate(**encoded,
                                                    pad_token_id=self.tokenizer.eos_token_id,
                                                    do_sample=True,
-                                                   max_new_tokens=100,
-                                                   temperature=0.3,
+                                                   max_new_tokens=60,
+                                                   temperature=0.9,
                                                    top_p=0.9,
                                                    top_k=500)
         
@@ -65,7 +65,7 @@ class Chatbot:
             f"User: \"{new_user_message}\"\n"
             f"Detected emotion: {detected_emotion}\n"
             "Explain the emotion in a friendly way.\n"
-            "Provide empathetic advice and support.\n"
+            "Provide empathetic and support.\n"
         )
         
         reply = self.generate_reply(llm_instruction)
