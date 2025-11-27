@@ -17,3 +17,6 @@ LABEL_MAPPING = "emotion"
 LABEL_MAPPING_PATH = PATH_ROOT/"data"/'label_mapping.json'
 
 MODEL_PATH = PATH_ROOT/"src"/"model.pkl"
+
+LANGUAGE_MODEL_NAME = "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
+

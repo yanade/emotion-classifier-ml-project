@@ -1,8 +1,9 @@
 import re
 from src.emotion_classifier import EmotionClassifier
 from src.config import MODEL_PATH
+from src.emotion_classifier import EmotionClassifier
 
-def clean_text(raw_text: str) -> str:
+def clean_input(raw_text: str) -> str:
     raw_text = raw_text.lower()
     raw_text = raw_text.strip()
     raw_text = re.sub(r"[^\w\s.,!?']", " ", raw_text)
@@ -29,11 +30,12 @@ def main():
             print("Please enter non-empty text.\n")
             continue
         
-        cleaned_text = clean_text(user_text)
+        cleaned_text = clean_input(user_text)
         prediction = classifier.classify(cleaned_text)
 
         print(f"Result: {prediction}\n")
 
 
 if __name__ == "__main__":
-    main()
+    result = main()
+  

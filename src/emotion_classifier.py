@@ -1,7 +1,7 @@
 import logging
 import pickle
 from src.config import MODEL_PATH
-from label_mapping import load_label_mapping
+from src.label_mapping import load_label_mapping
 
 class EmotionClassifier:
     def __init__(self, model_path=MODEL_PATH):
@@ -23,4 +23,5 @@ class EmotionClassifier:
         label_id = int(prediction[0])
         emotion_name = self.mapping[label_id]
         return emotion_name
+    
 

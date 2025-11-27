@@ -5,3 +5,6 @@ datasets
 huggingface_hub
 fsspec
 pyarrow
+transformers
+accelerate
+torch
