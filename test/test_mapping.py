@@ -1,4 +1,4 @@
-from src.mapping import load_label_mapping
+from label_mapping import load_label_mapping
 
 def test_mapping_is_correct_format():
     mapping = load_label_mapping()
