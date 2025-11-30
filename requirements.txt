@@ -8,4 +8,5 @@ pyarrow
 transformers
 accelerate
 torch
-sentence_transformers 
+sentence_transformers
+pytest
