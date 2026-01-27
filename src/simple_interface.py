@@ -1,7 +1,6 @@
 import re
-from src.emotion_classifier import EmotionClassifier
+from src.classifier import Classifier
 from src.config import MODEL_PATH
-from src.emotion_classifier import EmotionClassifier
 
 def clean_input(raw_text: str) -> str:
     raw_text = raw_text.lower()
@@ -16,7 +15,7 @@ def main():
     print("Type :q or exit to leave.\n")
     print("Type a sentence to classify.\n")
 
-    classifier = EmotionClassifier(MODEL_PATH)
+    classifier = Classifier(MODEL_PATH)
 
     exit_conditions = ("q", "exit")
     while True:
@@ -37,5 +36,4 @@ def main():
 
 
 if __name__ == "__main__":
-    result = main()
-  
+    main()

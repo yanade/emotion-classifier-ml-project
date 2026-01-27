@@ -1,29 +1,22 @@
-from src.emotion_classifier import EmotionClassifier
-from src.config import MODEL_PATH
+from src.classifier import Classifier
+from src.retriever import Retriever
 from src.language_model import Chatbot
 import os
 import logging
 import re
 
-
 os.makedirs("logs", exist_ok=True)
-
 
 logging.basicConfig(
     filename="chatbot.log",
     level=logging.INFO,
     format="%(asctime)s - %(levelname)s - %(message)s"
 )
-classifier = EmotionClassifier(MODEL_PATH)
-bot = Chatbot()
 
-def clean_input(raw_text: str) -> str:
-    raw_text = raw_text.lower()
-    raw_text = raw_text.strip()
-    raw_text = re.sub(r"[^\w\s.,!?']", " ", raw_text)
-    raw_text = re.sub(r"#(\w+)", r"\1", raw_text)  
-    raw_text = re.sub(r"\s+", " ", raw_text)
-    return raw_text
+# Instantiate the components
+classifier = Classifier()
+retriever = Retriever()
+bot = Chatbot(classifier=classifier, retriever=retriever)
 
 def main():
     print("Welcome! Before we start, what should I call you?")
@@ -49,7 +42,6 @@ def main():
 
         logging.info(f"User input: {user_input}")
         
-        
         try:
             emotion, response = bot.classify_with_llm(user_input)
             logging.info(f"Emotion classification: {emotion}")
@@ -62,8 +54,5 @@ def main():
         print(f"\nEmotion: {emotion}")
         print(f"Response:\n {response}")
     
-    
-
 if __name__ == "__main__":
-    result = main()
-    
+    main()

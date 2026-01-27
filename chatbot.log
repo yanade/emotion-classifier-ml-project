@@ -1,0 +1,126 @@
+2026-01-27 22:44:55,870 - INFO - Loading classification pipeline from: /Users/yana/northcoders/ml_project/emotion-classifier-ml-project/src/model.pkl
+2026-01-27 22:44:55,919 - INFO - Classification pipeline loaded successfully.
+2026-01-27 22:44:55,919 - INFO - Loaded label mapping: {0: 'sadness', 1: 'joy', 2: 'love', 3: 'anger', 4: 'fear', 5: 'surprise'}
+2026-01-27 22:44:55,919 - INFO - Initializing knowledge retriever...
+2026-01-27 22:44:55,920 - INFO - Knowledge embeddings and chunks loaded.
+2026-01-27 22:44:55,929 - INFO - Use pytorch device_name: mps
+2026-01-27 22:44:55,929 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-01-27 22:44:57,837 - INFO - Sentence embedding model loaded.
+2026-01-27 22:45:10,670 - INFO - User 'yana' logged in
+2026-01-27 22:45:21,716 - INFO - User input: I am hungry
+2026-01-27 22:45:26,615 - INFO - Emotion classification: joy
+2026-01-27 22:45:26,616 - INFO - LLM response: Detected emotion: joy
+Relevant scientific notes:
+- eat mood
+Keep the response enthusiastic but not exaggerated.
+Fear is linked to anxiety, worry, and unc.
+
+Task:
+Explain the detected emotion clearly and neut
+2026-01-27 22:45:55,027 - INFO - User input: I am shy
+2026-01-27 22:45:59,209 - INFO - Emotion classification: fear
+2026-01-27 22:45:59,209 - INFO - LLM response: Detected emotion: Fear
+
+Relevant scientific notes:
+- eat mood.
+- Keep the response enthusiastic but not exaggerated.
+- Fear is linked to anxiety, worry, uncertainty, and unc
+
+Task:
+Explain the detected
+2026-01-27 22:46:14,441 - INFO - User input: I am disapointed
+2026-01-27 22:46:18,960 - INFO - Emotion classification: joy
+2026-01-27 22:46:18,961 - INFO - LLM response: Detected emotion: sadness
+Relevant scientific notes:
+- loss of loved ones.
+- pain and sadness caused by difficult or traumatic events.
+- grief after the death of a loved one.
+- deep feelings of loss and nostalgia associated with significant
+2026-01-27 22:46:56,154 - INFO - User input: I am happy
+2026-01-27 22:47:00,352 - INFO - Emotion classification: joy
+2026-01-27 22:47:00,352 - INFO - LLM response: Response:
+Certainly! The user is happy, which is defined by the scientific notes as being positive and generally pleased. To explain the emotion, I would mirror the following:
+
+Task: Explain the emotion clearly and neutrally based on the scientific notes.
+2026-01-27 22:48:02,883 - INFO - User input: I feel anxiety
+2026-01-27 22:48:07,151 - INFO - Emotion classification: joy
+2026-01-27 22:48:07,151 - INFO - LLM response: Detected emotion: joy
+
+Relevant scientific notes:
+- the future, health, or losing control.
+
+When responding to fear, use a calm and reassuring tone.
+- Acknowledge that the user may be experiencing anxiety or fear, but emphas
+2026-01-27 23:00:18,139 - INFO - Loading classification pipeline from: /Users/yana/northcoders/ml_project/emotion-classifier-ml-project/src/model.pkl
+2026-01-27 23:00:18,198 - INFO - Classification pipeline loaded successfully.
+2026-01-27 23:00:18,198 - INFO - Loaded label mapping: {0: 'sadness', 1: 'joy', 2: 'love', 3: 'anger', 4: 'fear', 5: 'surprise'}
+2026-01-27 23:00:18,198 - INFO - Initializing knowledge retriever...
+2026-01-27 23:00:18,198 - INFO - Knowledge embeddings and chunks loaded.
+2026-01-27 23:00:18,207 - INFO - Use pytorch device_name: mps
+2026-01-27 23:00:18,207 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-01-27 23:00:19,990 - INFO - Sentence embedding model loaded.
+2026-01-27 23:00:30,056 - INFO - User 'yana' logged in
+2026-01-27 23:01:12,794 - INFO - User input: I feel enxeity
+2026-01-27 23:01:17,624 - INFO - Emotion classification: joy
+2026-01-27 23:01:17,624 - INFO - LLM response: The user is expressing a feeling of joy, which is a common emotion related to increased empathy, perspective-taking, and positive emotions. This emotion can be a source of pleasure and contentment, making them feel uplifted and energized. The scientific notes
+2026-01-27 23:02:01,716 - INFO - User input: I really find this story amazing
+2026-01-27 23:02:05,863 - INFO - Emotion classification: surprise
+2026-01-27 23:02:05,863 - INFO - LLM response: Thank you for your kind words! I'm glad you found the story intriguing. Here's a more detailed explanation of the detected emotion, surprise:
+
+Subject: A young man stumbles upon a hidden passageway in his old apartment, and while exploring,
+2026-01-27 23:02:54,601 - INFO - User input: can you tell me fun story?
+2026-01-27 23:02:58,929 - INFO - Emotion classification: joy
+2026-01-27 23:02:58,929 - INFO - LLM response: Sure, I can give you a possible fun story to fit the inputted user's request.
+
+In the city of New York, there was a park that had a carousel with classic wooden horses. One day, a group of children, who were playing on the carousel,
+2026-01-27 23:03:37,859 - INFO - User input: I am affraid
+2026-01-27 23:03:42,328 - INFO - Emotion classification: joy
+2026-01-27 23:03:42,328 - INFO - LLM response: Given the emotional label of "affraid" and the provided context, I understand that the user may be afraid. To explain this emotion, I would say:
+
+"I understand that you may be feeling afraid, and I respect that. Can you tell me more about what is
+2026-01-27 23:09:11,419 - INFO - Loading classification pipeline from: /Users/yana/northcoders/ml_project/emotion-classifier-ml-project/src/model.pkl
+2026-01-27 23:09:11,478 - INFO - Classification pipeline loaded successfully.
+2026-01-27 23:09:11,478 - INFO - Loaded label mapping: {0: 'sadness', 1: 'joy', 2: 'love', 3: 'anger', 4: 'fear', 5: 'surprise'}
+2026-01-27 23:09:11,478 - INFO - Initializing knowledge retriever...
+2026-01-27 23:09:11,479 - INFO - Knowledge embeddings and chunks loaded.
+2026-01-27 23:09:11,489 - INFO - Use pytorch device_name: mps
+2026-01-27 23:09:11,489 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-01-27 23:09:39,015 - INFO - Sentence embedding model loaded.
+2026-01-27 23:09:47,569 - INFO - User 'yana' logged in
+2026-01-27 23:09:49,902 - INFO - User input: I am affraid
+2026-01-27 23:09:53,442 - INFO - Emotion classification: joy
+2026-01-27 23:09:53,442 - INFO - LLM response: Agape, a third-person neutrally defined emotion, refers to a universal love for humanity, expressed in feelings of compassion and kindness towards others.</s>
+2026-01-27 23:11:12,456 - INFO - Loading classification pipeline from: /Users/yana/northcoders/ml_project/emotion-classifier-ml-project/src/model.pkl
+2026-01-27 23:11:12,515 - INFO - Classification pipeline loaded successfully.
+2026-01-27 23:11:12,515 - INFO - Loaded label mapping: {0: 'sadness', 1: 'joy', 2: 'love', 3: 'anger', 4: 'fear', 5: 'surprise'}
+2026-01-27 23:11:12,515 - INFO - Initializing knowledge retriever...
+2026-01-27 23:11:12,516 - INFO - Knowledge embeddings and chunks loaded.
+2026-01-27 23:11:12,527 - INFO - Use pytorch device_name: mps
+2026-01-27 23:11:12,527 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-01-27 23:11:14,393 - INFO - Sentence embedding model loaded.
+2026-01-27 23:11:35,135 - INFO - User 'yana' logged in
+2026-01-27 23:11:36,901 - INFO - User input: I am affraid
+2026-01-27 23:11:41,739 - INFO - Emotion classification: joy
+2026-01-27 23:11:41,739 - INFO - LLM response: I am not capable of experiencing emotions, but I can provide you with a step-by-step guide on how to create an empathetic and non-empathetic tone in your explanation:
+
+1. When communicating with a user, always start by asking for their name
+2026-01-27 23:12:07,898 - INFO - User input: I am hungry
+2026-01-27 23:12:12,061 - INFO - Emotion classification: joy
+2026-01-27 23:12:12,062 - INFO - LLM response: Certainly! Here's a possible explanation for the given emotion of "hungry" based on the scientific notes provided by the user:
+
+- The user may be feeling excited, inspired, or energized by the prospect of exploring new food options or engaging in other
+2026-01-27 23:12:43,311 - INFO - User input: I am enjoy
+2026-01-27 23:12:47,500 - INFO - Emotion classification: joy
+2026-01-27 23:12:47,500 - INFO - LLM response: I am a computer program, not a person. However, based on the provided context, the user is most likely expressing joy. When describing the emotion of joy, I would provide a clear and neutral response. Here's how I would explain it to the user:
+
+Thank you
+2026-01-27 23:12:55,044 - INFO - User input: I am sad
+2026-01-27 23:12:59,235 - INFO - Emotion classification: sadness
+2026-01-27 23:12:59,235 - INFO - LLM response: Sure, here's an example of a neutral and concise explanation for a user who says "I'm sad":
+
+Scientific notes: Stress, exhaustion, loneliness, or difficult life events can cause sadness. 
+
+When given the emotion
+2026-01-27 23:13:51,657 - INFO - User input: I am enjoy
+2026-01-27 23:13:55,844 - INFO - Emotion classification: joy
+2026-01-27 23:13:55,844 - INFO - LLM response: Thank you for providing the context for the user's statement. The scientific notes regarding the emotion "joy" mentioned in the context indicate that it is a positive emotional state associated with pleasure, reward, and well-being. This means that the user is feeling joyful and satisfied

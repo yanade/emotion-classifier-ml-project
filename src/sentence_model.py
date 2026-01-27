@@ -4,6 +4,7 @@ from sentence_transformers import SentenceTransformer
 import logging
 import numpy as np
 import pickle
+import re
 
 logging.basicConfig(
     level=logging.INFO,
@@ -26,21 +27,15 @@ def load_files(path=KNOWLEDGE_PATH):
     logging.info(f"Loaded {len(documents)} documents")
     return documents
 
-documents = load_files()
-logging.info(f"First document preview:\n{documents[0][:200]}")
-
-
-
-def chunk_knowledge(text, chunk_size=100, overlap=40):
-    chunks = []
-    start = 0
-    while start <len(text):
-        end = start + chunk_size
-        chunk = text[start:end].strip()
-        if chunk:
-            chunks.append(chunk)
-        start = end - overlap
-    logging.info(f"Created {len(chunks)} chunks")
+def chunk_knowledge(text):
+    """Splits text into meaningful chunks based on sentences."""
+    # Split by newlines and then further split by sentence-ending punctuation
+    sentences = re.split(r'(?<!\w\.\w.)(?<![A-Z][a-z]\.)(?<=\.|\?|\!)\s', text.replace('\n', ' '))
+    
+    # Filter out any empty strings that may result from splitting
+    chunks = [s.strip() for s in sentences if s.strip()]
+    
+    logging.info(f"Created {len(chunks)} chunks from text.")
     return chunks
 
 def create_all_chunks(documents): 
@@ -71,7 +66,3 @@ if __name__ == "__main__":
             {"embeddings": embeddings,
             "chunk": all_chunks},f)
         logging.info(f"Model saved to {SENTENCE_MODEL_PATH }")
-
-
-
-
