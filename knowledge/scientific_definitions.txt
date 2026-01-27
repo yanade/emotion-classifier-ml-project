@@ -141,4 +141,8 @@ Conflict-related surprise – Occurs when outcomes contradict predictions.
 Learning surprise – Enhances memory and knowledge retention.
 Exploratory surprise – Motivates investigation of environment.
 Social signaling surprise – Communicates attention to group members.
+<<<<<<< HEAD
 Adaptive learning surprise – Guides behavioral adjustment and problem-solving.
+=======
+Adaptive learning surprise – Guides behavioral adjustment and problem-solving.
+>>>>>>> 41ab90b881a84c0cd6fb76b31f0d70eea3e377a1
