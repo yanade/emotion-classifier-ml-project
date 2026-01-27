@@ -15,7 +15,11 @@ class Chatbot:
         self.tokenizer = AutoTokenizer.from_pretrained(self.model_name)
         self.model = AutoModelForCausalLM.from_pretrained(self.model_name).to(self.device)
         self.history: list[tuple[str, str]] = []
-        self.system_prompt = ("<|system|>\n" "You are an emotion-aware assistant.\n")
+        self.system_prompt = ("<|system|>\n"
+                                "You are a emotional explanation assistant.\n"
+                                "When given an emotion label and context, explain ONLY that emotion.\n"
+                                "Do NOT confuse it with other emotions.\n"
+                                "<|end|>\n")
 
         self.classifier = EmotionClassifier(MODEL_PATH)
         print(f"Model requested: {self.model_name}")
@@ -67,10 +71,12 @@ class Chatbot:
         retrieved_chunks_knowledge = self.classifier.retrieve(cleaned_message, top_k=1)
         context_chunk_knowledge = "\n".join(f" - {chunk}" for chunk in retrieved_chunks_knowledge)
         llm_instruction = (
-                        f"{assistant_text}\n\n"
-                        f"The detected emotion is: {detected_emotion}.\n"
-                        f"{context_chunk_knowledge}\n\n"
-                        "Write an empathetic explanation of this emotion.\n"
+                        f"The user said: \"{assistant_text}\"\n\n"
+                        f"Detected emotion: {detected_emotion}\n"
+                        f"Relevant scientific notes:\n{context_chunk_knowledge}\n\n"
+                        "Task:\nExplain the detected emotion clearly and empathetically.\n"
+                        "Do NOT mention other emotions unless clearly relevant.\n"
+                        "Use the context provided.\n"
 )
 
        

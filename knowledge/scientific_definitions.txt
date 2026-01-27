@@ -16,3 +16,129 @@ It activates the amygdala and fight-flight-freeze mechanisms, preparing the body
 Surprise
 A brief emotional reaction to unexpected events.
 It rapidly shifts attention, increases sensory intake, and prepares the body to evaluate novel stimuli. Surprise can transition into other emotions depending on context (fear, joy, curiosity).
+Sadness
+General sadness – Negative emotional state triggered by loss, disappointment, or unmet needs.
+Melancholy – Deep, prolonged sadness without a clear external cause.
+Grief – Intense sadness in response to the loss of a loved one or attachment.
+Regret – Sadness tied to past decisions or actions perceived as mistakes.
+Loneliness – Emotional pain from perceived social isolation.
+Disappointment – Sadness arising when expectations or hopes are unmet.
+Hopelessness – Feeling of despair and lack of future prospects.
+Despondency – Extreme sadness combined with a sense of powerlessness.
+Guilt-related sadness – Emotional pain from perceived wrongdoing or moral failure.
+Shame-related sadness – Sadness due to internalized or social judgment.
+Frustration-linked sadness – Sadness from blocked goals or obstacles.
+Nostalgia – Bittersweet sadness evoked by past memories.
+Empathic sadness – Sadness in response to others’ suffering.
+Apathetic sadness – Low-arousal sadness leading to withdrawal.
+Subdued sorrow – Mild, lingering sadness without acute distress.
+Reflective sadness – Sadness prompting introspection or self-evaluation.
+Compassionate sadness – Sadness motivating care or support for others.
+Physiological sadness – Reduced arousal, lowered energy, and appetite changes.
+Socially-signaled sadness – Expressed to communicate need for comfort.
+Adaptive sadness – Promotes reflection, learning, and relationship maintenance.
+Joy
+General joy – Positive emotional state associated with pleasure and well-being.
+Happiness – Sustained contentment and life satisfaction.
+Elation – High-arousal joy linked to achievement or success.
+Amusement – Joy from humor or playful activities.
+Excitement – Energized joy connected to novelty or anticipation.
+Relief – Joy following resolution of stress or threat.
+Gratitude – Joy rooted in appreciation of circumstances or kindness.
+Triumph – Joy from overcoming challenges or obstacles.
+Optimism-linked joy – Positive anticipation of future events.
+Playful joy – Socially interactive, light-hearted pleasure.
+Romantic joy – Pleasure from intimacy or emotional closeness.
+Sensory joy – Pleasure triggered by taste, sound, or visual stimuli.
+Achievement joy – Positive reinforcement from completing goals.
+Altruistic joy – Happiness derived from helping others.
+Flow-related joy – Joy during deep engagement in tasks.
+Surprise-elicited joy – Positive response to unexpected favorable events.
+Physiological joy – Dopamine, serotonin, and endorphin activity increases.
+Social bonding joy – Facilitates trust, cooperation, and group cohesion.
+Cognitive joy – Pleasure from problem-solving or learning.
+Adaptive joy – Encourages exploration, engagement, and survival behaviors.
+Love
+General love – Complex emotional system integrating attachment and caregiving.
+Romantic love – Intense affection and desire for emotional/physical closeness.
+Companionate love – Deep attachment and mutual respect in long-term relationships.
+Parental love – Protective, nurturing response toward offspring.
+Familial love – Affection and loyalty among family members.
+Friendship love – Positive regard and support between peers.
+Altruistic love – Selfless care for others’ well-being.
+Self-love – Positive regard and acceptance of oneself.
+Unrequited love – Affection not reciprocated by the other.
+Passionate love – High-arousal desire and emotional intensity.
+Attachment love – Emotional bond promoting security and comfort.
+Agape – Compassionate, universal love for humanity.
+Physiological love – Oxytocin and dopamine systems reinforce bonding.
+Socially-signaled love – Expressed to strengthen relationships.
+Long-term affiliative love – Supports cooperation, trust, and stability.
+Protective love – Motivates defense of loved ones.
+Erotic love – Sexual attraction integrated with emotional closeness.
+Transformative love – Promotes personal growth and empathy.
+Adaptive love – Encourages survival, caregiving, and social cohesion.
+Cognitive love – Incorporates understanding, commitment, and shared goals.
+Anger
+General anger – Emotional response to perceived threat or injustice.
+Frustration anger – Triggered by blocked goals or obstacles.
+Righteous anger – Response to perceived moral violation.
+Irritation – Mild, low-arousal anger.
+Resentment – Sustained anger over past grievances.
+Hostility – Aggressive disposition toward others.
+Envy-related anger – Arises when comparing self unfavorably to others.
+Jealousy anger – Protecting valued relationships or resources.
+Defensive anger – Activated by threats to self or loved ones.
+Reactive anger – Immediate response to provocation.
+Instrumental anger – Directed to achieve specific outcomes.
+Suppressed anger – Anger that is consciously inhibited.
+Expressed anger – Externalized through words or actions.
+Physiological anger – Sympathetic activation, adrenaline release, increased heart rate.
+Cognitive anger – Involves rumination and appraisal of threat.
+Socially-signaled anger – Communicates boundaries or displeasure.
+Aggressive anger – Motivates confrontation or defense.
+Moral anger – Driven by ethical principles or injustice.
+Adaptive anger – Encourages problem-solving and boundary setting.
+Constructive anger – Channelled to improve situations without harm.
+Fear
+General fear – Emotional response to threat or danger.
+Acute fear – Short-term, high-arousal response to immediate danger.
+Chronic fear – Persistent apprehension or anxiety.
+Phobic fear – Irrational fear of specific objects or situations.
+Social fear – Anxiety regarding social judgment or rejection.
+Anticipatory fear – Concern about potential future threats.
+Trauma-related fear – Fear triggered by reminders of past trauma.
+Startle response – Immediate fear reaction to sudden stimuli.
+Separation fear – Anxiety over loss or absence of attachment figures.
+Fear of failure – Apprehension about negative outcomes of actions.
+Physiological fear – Amygdala activation, increased heart rate, and cortisol release.
+Freeze response – Immobility in the presence of threat.
+Flight response – Motivation to escape danger.
+Fight response – Motivation to confront threat.
+Cognitive fear – Risk assessment, hypervigilance, and threat appraisal.
+Socially-modulated fear – Learned fear influenced by culture or group norms.
+Adaptive fear – Enhances survival through alertness and avoidance.
+Protective fear – Guides caution in unsafe environments.
+Curiosity-linked fear – Balance of fear and exploration in novel situations.
+Fear extinction – Learning to reduce or inhibit fear responses over time.
+Surprise
+General surprise – Brief emotional reaction to unexpected events.
+Startle surprise – Immediate physiological response to sudden stimuli.
+Positive surprise – Unexpected events that produce pleasure or joy.
+Negative surprise – Unexpected events that produce fear or distress.
+Neutral surprise – Unexpected events without clear positive or negative valence.
+Curiosity-driven surprise – Promotes exploration and learning.
+Cognitive surprise – Triggers reassessment of assumptions or beliefs.
+Social surprise – Occurs in response to unexpected social behavior.
+Physiological surprise – Increased attention, heart rate, and sensory intake.
+Adaptive surprise – Enhances detection of novel opportunities or threats.
+Short-lived surprise – Rapid onset and brief duration.
+Delayed surprise – Recognition of unexpected events after initial exposure.
+Expressed surprise – Facial or vocal expression signaling novelty.
+Contingent surprise – Surprise dependent on context or expectation.
+Transformative surprise – Leads to new understanding or insight.
+Conflict-related surprise – Occurs when outcomes contradict predictions.
+Learning surprise – Enhances memory and knowledge retention.
+Exploratory surprise – Motivates investigation of environment.
+Social signaling surprise – Communicates attention to group members.
+Adaptive learning surprise – Guides behavioral adjustment and problem-solving.

@@ -47,6 +47,6 @@ class EmotionClassifier:
     def retrieve(self, text: str, top_k: int = 2):
         query_emb = self.embedder.encode([text])
         sims = cosine_similarity(query_emb, self.knowledge_embeddings)[0]
-        top_indices = np.argsort((sims)[-top_k:][::-1])
+        top_indices = np.argsort(sims)[-top_k:][::-1]
         retrieved = [self.knowledge_chunks[i] for i in top_indices]
         return retrieved
