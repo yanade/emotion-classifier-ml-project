@@ -11,20 +11,6 @@ neutral explanation** of the detected emotion.
 
 ---
 
-## Why This Project Exists
-
-Emotion classification models often stop at predicting a label.
-In practice, this is rarely sufficient — stakeholders need to understand
-**what the label means and why it applies**.
-
-This project was built to:
-- practise an end-to-end ML workflow beyond notebooks,
-- explore how classical ML and LLMs can work together,
-- experiment with explainability using lightweight retrieval (Mini-RAG),
-- apply software engineering discipline to an ML system.
-
----
-
 ## What It Does
 
 Given a user sentence, the system:
