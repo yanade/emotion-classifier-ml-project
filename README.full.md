@@ -117,6 +117,14 @@ pip install -r requirements.txt
 
 ---
 
+## Model compatibility
+
+The serialized classifier pipeline was trained and exported using **scikit-learn 1.7.2**.
+For correct inference, the runtime environment pins scikit-learn to the same version to avoid incompatibilities when loading the model artifact.
+
+---
+
+
 ## First-Time Setup
 
 ```bash
